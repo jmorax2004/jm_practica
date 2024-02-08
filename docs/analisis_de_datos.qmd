@@ -1,0 +1,47 @@
+---
+title: "Quarto practica"
+author: "Julian Mora"
+format: html
+editor: visual
+---
+
+
+
+# Abstract
+
+learning how to analyze data in R studio
+
+
+#library
+```{r}
+course_packages <- c("dplyr", 
+"DT", 
+"forcats", 
+"ggplot2", 
+"ggmap", 
+"knitr", 
+"leaflet", 
+"lubridate", 
+"readr", 
+"renv", 
+"rrtools", 
+"sf", 
+"scales", 
+"tidyr", 
+"usethis")
+for (course_packages in course_packages) { 
+if (!(course_packages %in% installed.packages())) { install.packages(course_packages) } 
+} 
+rm(course_packages) # remove object from Global Environment 
+# update any out-of-date packages 
+update.packages(ask=FALSE)
+
+```
+
+
+
+## Data
+
+
+
+
