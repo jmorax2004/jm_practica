@@ -5,14 +5,12 @@ format: html
 editor: visual
 ---
 
-
-
 # Abstract
 
 learning how to analyze data in R studio
 
-
 #library
+
 ```{r}
 course_packages <- c("dplyr", 
 "DT", 
@@ -38,10 +36,4 @@ update.packages(ask=FALSE)
 
 ```
 
-
-
 ## Data
-
-
-
-
